@@ -1,0 +1,327 @@
+(footprint "CONN-TH_2P-P1.25_XUNPU_WAFER-GH1.25-2PWB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 4 0)
+		(layer "F.SilkS")
+		(uuid "f40d69e7-f92c-4099-b373-7c4c5ca44838")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 3.5 -2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5d5093a-5192-4e9e-9b2f-c32efe299a9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4174098-a604-48ce-ae39-c9230fc5c7ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12dd7482-df32-41e1-a4b3-e3c8c9e5adc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdaa820b-a04b-435e-ac8c-cf0aa1149ea9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3DModel_Q" "d453ea4408604dff9d42557650442b4e"
+		(at 0 8.5 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "5239ef24-de7a-49ff-8026-900e8ebe15c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3D_Size" "5.76 5"
+		(at 0 6.5 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "c0f92563-a2bd-44e2-bacb-6e7bbcdd8040")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.838 -0.853)
+		(end -2.838 -0.181)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3672c5c5-47ab-4f7b-aae9-083fd49ad9ca")
+	)
+	(fp_line
+		(start -2.838 -0.853)
+		(end -1.156 -0.853)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "98b51e78-0d30-41ba-aedf-571f9843a77b")
+	)
+	(fp_line
+		(start -2.838 3.195)
+		(end -2.838 3.081)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f0ff7ad8-7f42-47da-86ff-926ce74df641")
+	)
+	(fp_line
+		(start -0.094 -0.853)
+		(end 0.094 -0.853)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0742ef02-1ba5-49be-9bb2-ff330000b27f")
+	)
+	(fp_line
+		(start 1.156 -0.853)
+		(end 2.875 -0.853)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4dbf1f88-3825-4ecb-bdb4-e3eff6293a15")
+	)
+	(fp_line
+		(start 2.875 -0.853)
+		(end 2.875 -0.181)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0887838a-166c-4fd4-bc59-adbf974ef455")
+	)
+	(fp_line
+		(start 2.875 3.081)
+		(end 2.875 3.195)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b8f1f057-f8b3-4617-a291-e1af72e4eb7c")
+	)
+	(fp_line
+		(start 2.875 3.195)
+		(end -2.838 3.195)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "114e1d94-5722-4df1-a9aa-8799b79b9ce9")
+	)
+	(fp_circle
+		(center -1.535 -1.46)
+		(end -1.408 -1.46)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d8c7a00f-4696-4d1d-8088-d2ecddf16ef5")
+	)
+	(fp_circle
+		(center -1.535 -1.46)
+		(end -1.408 -1.46)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "faeef4b3-eae6-4207-a442-382b999aa855")
+	)
+	(fp_poly
+		(pts
+			(xy -2.575 0.45) (xy -2.375 0.45) (xy -2.375 2.45) (xy -2.575 2.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "User.1")
+		(uuid "9081eed7-4077-42d8-a20b-e7abcaf94614")
+	)
+	(fp_poly
+		(pts
+			(xy -0.725 -1.803) (xy -0.525 -1.803) (xy -0.525 -0.803) (xy -0.725 -0.803)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "User.1")
+		(uuid "b2039e17-5d0c-4d76-b5c1-d20c5a1c5392")
+	)
+	(fp_poly
+		(pts
+			(xy 0.525 -1.803) (xy 0.725 -1.803) (xy 0.725 -0.803) (xy 0.525 -0.803)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "User.1")
+		(uuid "d21b5b5f-2c6b-4def-acf4-f5ab3ec3d7b9")
+	)
+	(fp_poly
+		(pts
+			(xy 2.375 0.45) (xy 2.575 0.45) (xy 2.575 2.45) (xy 2.375 2.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "User.1")
+		(uuid "49f0d8b9-ded0-4d46-9de2-85ef84494943")
+	)
+	(fp_line
+		(start -2.875 -0.853)
+		(end 2.875 -0.853)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "7211b796-c0f1-441d-a521-6ff8b98fb27e")
+	)
+	(fp_line
+		(start -2.875 3.197)
+		(end -2.875 -0.853)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "d1fca6ac-258a-486b-b5cd-476c9318a144")
+	)
+	(fp_line
+		(start 2.875 -0.853)
+		(end 2.875 3.197)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "3509d5dc-7a33-479b-a1d3-4a0d8ad7728f")
+	)
+	(fp_line
+		(start 2.875 3.197)
+		(end -2.875 3.197)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "432cf366-9cd7-4d8f-a319-f6e1f7406dec")
+	)
+	(fp_poly
+		(pts
+			(xy -2.815 -1.803) (xy -2.832574 -1.845426) (xy -2.875 -1.863) (xy -2.917426 -1.845426) (xy -2.935 -1.803)
+			(xy -2.917426 -1.760574) (xy -2.875 -1.743) (xy -2.832574 -1.760574)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "User.3")
+		(uuid "c13221e6-4795-4d2a-936d-77257d5aed29")
+	)
+	(pad "1" smd rect
+		(at -0.625 -1.45)
+		(size 0.6 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d66a2477-a3d4-4662-b298-5b011863b5cb")
+	)
+	(pad "2" smd rect
+		(at 0.625 -1.45)
+		(size 0.6 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "24af11ff-6fd4-46ee-bd21-f2ebbb82e129")
+	)
+	(pad "3" smd rect
+		(at -2.475 1.45)
+		(size 1 2.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1bb274c7-788f-41db-b35d-3cdb4599b007")
+	)
+	(pad "4" smd rect
+		(at 2.475 1.45)
+		(size 1 2.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "db3c9dc5-6721-446d-99bd-21417920f08a")
+	)
+	(model "${KIPRJMOD}/EASYEDA_MODELS/CONN-TH_2P-P1.25_XUNPU_WAFER-GH1.25-2PWB.step"
+		(offset
+			(xyz 0 -0.687 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -0)
+		)
+	)
+)
