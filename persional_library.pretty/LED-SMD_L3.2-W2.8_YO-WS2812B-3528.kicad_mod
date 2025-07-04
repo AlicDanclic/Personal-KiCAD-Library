@@ -86,97 +86,6 @@
 			)
 		)
 	)
-	(fp_line
-		(start -1.6 -1.4)
-		(end -1.6 -1.2735)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "f4266522-911d-4fb2-b742-9b0623321abb")
-	)
-	(fp_line
-		(start -1.6 -1.4)
-		(end 1.6 -1.4)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "49f8b491-3fe6-4fc0-b991-417c03ca205e")
-	)
-	(fp_line
-		(start -1.6 -0.2265)
-		(end -1.6 0.2265)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "e0cf9fae-6403-46d8-819c-037077cb0b07")
-	)
-	(fp_line
-		(start -1.6 1.2735)
-		(end -1.6 1.4)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "9871aa2f-01ee-4563-b396-c0c6eb1c9c27")
-	)
-	(fp_line
-		(start -1.6 1.4)
-		(end 1.6 1.4)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "217eba35-eb0d-41e3-aa39-8a865a8e3ceb")
-	)
-	(fp_line
-		(start 1.6 -1.4)
-		(end 1.6 -1.2735)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "30c199b9-1ee2-4ba6-9fb3-81486612b8c3")
-	)
-	(fp_line
-		(start 1.6 -0.2265)
-		(end 1.6 0.2265)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "c526b5b5-e035-40d3-8608-6db81070d352")
-	)
-	(fp_line
-		(start 1.6 1.2735)
-		(end 1.6 1.4)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "22165df4-bf1e-4790-ba0f-cbd15349111f")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.992 0)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "6a1485b2-5d32-4e25-88ce-47b2cd7a45ce")
-	)
 	(fp_poly
 		(pts
 			(xy -2.03 1.83) (xy -2.03 1.322) (xy -1.522 1.83)
@@ -188,18 +97,6 @@
 		(fill solid)
 		(layer "F.SilkS")
 		(uuid "5e2138d0-de64-4b74-ad71-b88ed0134ad0")
-	)
-	(fp_poly
-		(pts
-			(xy -1.6 1.4) (xy -0.4 1.4) (xy -1.6 0.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill solid)
-		(layer "Dwgs.User")
-		(uuid "854b99c9-cb1e-44ee-833f-1ae69adcfe7c")
 	)
 	(fp_poly
 		(pts
