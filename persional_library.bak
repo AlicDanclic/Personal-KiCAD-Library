@@ -10155,7 +10155,7 @@
 			)
 		)
 	)
-	(symbol "DIO_1N4148WSL"
+	(symbol "Diode_1N4148WSL"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10247,7 +10247,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DIO_1N4148WSL_1_0"
+		(symbol "Diode_1N4148WSL_1_0"
 			(polyline
 				(pts
 					(xy -1.27 -1.524) (xy -1.27 1.524)
