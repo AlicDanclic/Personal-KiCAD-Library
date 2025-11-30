@@ -25767,6 +25767,193 @@
 			)
 		)
 	)
+	(symbol "Hole_M3-M"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "hole"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "persional_library:m3 125x300"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "梅花螺丝孔"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Hole_M3-M_1_0"
+			(circle
+				(center -4.572 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 51 51 51 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.302 -3.302)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 51 51 51 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.302 3.302)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 51 51 51 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -4.572)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 51 51 51 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 3.048)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.0254 -0.1016)
+				(radius 6.223)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.254 4.318)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 51 51 51 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.302 -3.302)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 51 51 51 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.302 3.302)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 51 51 51 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4.572 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 51 51 51 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at 0 -11.43 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "IC_CH484M"
 		(exclude_from_sim no)
 		(in_bom yes)
