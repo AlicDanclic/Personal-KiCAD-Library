@@ -2,6 +2,11 @@
 
 > 声明:本库仅供个人学习使用,大部分封装来源于嘉立创,符号等自己进行稍微更改
 
+> 目前完成:
+>
+> - 贴片电阻电容电感的3D封装
+> - GH1.25
+
 目前拥有:
 
 - XTAL:晶振系列,一个8MHz的村田以及若干4P晶振,购买连接为:[CSTCE 3215 村田三脚贴片陶瓷晶振8M 10M 12 16 20 24MHZ 3213 3P-tmall.com天猫](https://detail.tmall.com/item.htm?from=cart&id=660937157433&mi_id=0000aqU0b-yeqaS__DligJBxvVy2M_5Su42T-BwziY0_51w&skuId=4943242391463&spm=a1z0d.6639537%2F202410.item.d660937157433.34067484Q1Jb35&upStreamPrice=280)和[3225 8M12M16M24M25M26M27M27.120M30M32M40MHZ无源贴片晶振xtal-淘宝网](https://item.taobao.com/item.htm?id=681160536821&spm=tbpc.mytb_followshop.item.goods)

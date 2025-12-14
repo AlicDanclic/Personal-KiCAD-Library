@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0.01 -1.8 0)
 		(layer "F.SilkS")
 		(uuid "a84407c7-b789-4417-b032-a445ed9905a3")
 		(effects
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "3801f27f-a4c7-4560-8ff1-920aca73bbc1")
@@ -260,7 +260,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "cfd2c7bd-4d0c-4a6e-b475-100f226a52e9")
 	)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/R0805_L2.0-W1.3-H0.6.step"
+	(model "${KICAD_PESIONAL}/R0805.step"
 		(offset
 			(xyz 0 0 0)
 		)

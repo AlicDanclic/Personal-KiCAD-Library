@@ -25767,6 +25767,193 @@
 			)
 		)
 	)
+	(symbol "Hole_M3-M"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "hole"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "persional_library:m3 125x300"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "梅花螺丝孔"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Hole_M3-M_1_0"
+			(circle
+				(center -4.572 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 51 51 51 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.302 -3.302)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 51 51 51 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.302 3.302)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 51 51 51 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -4.572)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 51 51 51 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 3.048)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.0254 -0.1016)
+				(radius 6.223)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.254 4.318)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 51 51 51 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.302 -3.302)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 51 51 51 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.302 3.302)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 51 51 51 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 4.572 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+					(color 51 51 51 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at 0 -11.43 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "IC_CH484M"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32907,7 +33094,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32915,7 +33102,7 @@
 			)
 		)
 		(property "Value" "1.5uH"
-			(at 0 0 0)
+			(at 0 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32986,6 +33173,15 @@
 			)
 		)
 		(property "LCSC Part Name" "2.2uH ±20% 10A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase link" "https://item.taobao.com/item.htm?abbucket=17&id=528379639825"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33094,7 +33290,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33102,7 +33298,7 @@
 			)
 		)
 		(property "Value" "10uH"
-			(at 0 0 0)
+			(at 0 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33173,6 +33369,15 @@
 			)
 		)
 		(property "LCSC Part Name" "2.2uH ±20% 10A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase link" "https://item.taobao.com/item.htm?abbucket=17&id=528379639825"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33281,7 +33486,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33289,7 +33494,7 @@
 			)
 		)
 		(property "Value" "15uH"
-			(at 0 0 0)
+			(at 0 2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33360,6 +33565,15 @@
 			)
 		)
 		(property "LCSC Part Name" "2.2uH ±20% 10A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase link" "https://item.taobao.com/item.htm?abbucket=17&id=528379639825"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33468,7 +33682,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 0 0 0)
+			(at 0 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33476,7 +33690,7 @@
 			)
 		)
 		(property "Value" "1uH"
-			(at 0 0 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33547,6 +33761,15 @@
 			)
 		)
 		(property "LCSC Part Name" "2.2uH ±20% 10A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase link" "https://item.taobao.com/item.htm?abbucket=17&id=528379639825"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33655,7 +33878,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33663,7 +33886,7 @@
 			)
 		)
 		(property "Value" "2.2uH"
-			(at 0 0 0)
+			(at 0 2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33734,6 +33957,15 @@
 			)
 		)
 		(property "LCSC Part Name" "2.2uH ±20% 10A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase link" "https://item.taobao.com/item.htm?abbucket=17&id=528379639825"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33842,7 +34074,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33850,7 +34082,7 @@
 			)
 		)
 		(property "Value" "22uH"
-			(at 0 0 0)
+			(at 0 2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33921,6 +34153,15 @@
 			)
 		)
 		(property "LCSC Part Name" "2.2uH ±20% 10A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase link" "https://item.taobao.com/item.htm?abbucket=17&id=528379639825"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34029,7 +34270,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34037,7 +34278,7 @@
 			)
 		)
 		(property "Value" "3.3uH"
-			(at 0 0 0)
+			(at 0 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34108,6 +34349,15 @@
 			)
 		)
 		(property "LCSC Part Name" "2.2uH ±20% 10A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase link" "https://item.taobao.com/item.htm?abbucket=17&id=528379639825"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34216,7 +34466,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34224,7 +34474,7 @@
 			)
 		)
 		(property "Value" "33uH"
-			(at 0 0 0)
+			(at 0 2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34295,6 +34545,15 @@
 			)
 		)
 		(property "LCSC Part Name" "2.2uH ±20% 10A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase link" "https://item.taobao.com/item.htm?abbucket=17&id=528379639825"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34403,7 +34662,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 0 0 0)
+			(at 0 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34411,7 +34670,7 @@
 			)
 		)
 		(property "Value" "4.7uH"
-			(at 0 0 0)
+			(at 0 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34482,6 +34741,15 @@
 			)
 		)
 		(property "LCSC Part Name" "2.2uH ±20% 10A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase link" "https://item.taobao.com/item.htm?abbucket=17&id=528379639825"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34590,7 +34858,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34598,7 +34866,7 @@
 			)
 		)
 		(property "Value" "47uH"
-			(at 0 0 0)
+			(at 0 2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34669,6 +34937,15 @@
 			)
 		)
 		(property "LCSC Part Name" "2.2uH ±20% 10A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase link" "https://item.taobao.com/item.htm?abbucket=17&id=528379639825"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34777,7 +35054,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34785,7 +35062,7 @@
 			)
 		)
 		(property "Value" "6.8uH"
-			(at 0 0 0)
+			(at 0 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34856,6 +35133,15 @@
 			)
 		)
 		(property "LCSC Part Name" "2.2uH ±20% 10A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase link" "https://item.taobao.com/item.htm?abbucket=17&id=528379639825"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37665,7 +37951,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "persional_library:R0603"
@@ -37704,7 +37989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
+		(property "Manufacturer" "欧贝顿"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37738,6 +38023,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purchase link" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(symbol "R0603_1_0"
