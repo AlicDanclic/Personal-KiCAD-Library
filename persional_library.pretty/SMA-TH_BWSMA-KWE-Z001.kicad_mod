@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at -0.05 -4.36 0)
 		(layer "F.SilkS")
 		(uuid "7f7cc333-2480-4783-959a-02d48bb5f5e0")
 		(effects
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "b9e6eff6-f2ce-460e-afd9-66a3d087aed0")
@@ -473,15 +473,15 @@
 		(thermal_bridge_angle 90)
 		(uuid "03990151-cad6-4701-8e9a-1b656637c5ca")
 	)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/SMA-TH_5P-L14.5-W6.0-H9.6_BWSMA-KWE-Z001.step"
+	(model "${KICAD_PESIONAL}/SMA-TH_BWSMA-KWE-Z001.step"
 		(offset
-			(xyz 4.315 0 -3.5)
+			(xyz 0 0 6.35)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 -0)
+			(xyz 0 0 90)
 		)
 	)
 )
