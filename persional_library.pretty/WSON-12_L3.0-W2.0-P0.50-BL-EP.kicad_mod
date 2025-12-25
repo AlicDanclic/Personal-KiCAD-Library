@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -2.33 0)
 		(layer "F.SilkS")
 		(uuid "d368cc76-b7f6-4f70-95d4-7ce7bf46b9cd")
 		(effects
@@ -14,9 +14,10 @@
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 0 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "e06a24e6-41d4-431a-9cfd-731474408d82")
 		(effects
 			(font
@@ -472,7 +473,7 @@
 		)
 		(uuid "cdd9ebdf-4599-47c4-9e2a-4ddaa173723a")
 	)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/WSON-12_L3.0-W2.0-H0.8-P0.50.step"
+	(model "${KICAD_PESIONAL}/LM27762.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -480,7 +481,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 -90)
+			(xyz -90 0 -90)
 		)
 	)
 )

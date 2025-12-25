@@ -17,6 +17,7 @@
 	(property "Value" "Val**"
 		(at 0 0 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "3801f27f-a4c7-4560-8ff1-920aca73bbc1")
 		(effects
 			(font
