@@ -19157,7 +19157,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "CN"
-			(at 0 0 0)
+			(at 21.082 -7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19165,7 +19165,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 0)
+			(at 2.54 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19173,7 +19173,7 @@
 			)
 		)
 		(property "Footprint" "persional_library:CONN-SMD_1717254-1"
-			(at 0 0 0)
+			(at 2.54 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19182,7 +19182,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/1717254-1/618586.html"
-			(at 0 0 0)
+			(at 2.54 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19191,7 +19191,7 @@
 			)
 		)
 		(property "Description" "总PIN数:200P;安装方式:卧贴;"
-			(at 0 0 0)
+			(at 2.54 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19200,7 +19200,7 @@
 			)
 		)
 		(property "Manufacturer Part" "1717254-1"
-			(at 0 0 0)
+			(at 2.54 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19209,7 +19209,7 @@
 			)
 		)
 		(property "Manufacturer" "TE Connectivity(泰科电子)"
-			(at 0 0 0)
+			(at 2.54 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19218,7 +19218,7 @@
 			)
 		)
 		(property "Supplier Part" "C590722"
-			(at 0 0 0)
+			(at 2.54 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19227,7 +19227,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 0 0 0)
+			(at 2.54 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19236,7 +19236,7 @@
 			)
 		)
 		(property "LCSC Part Name" "P数:200P"
-			(at 0 0 0)
+			(at 2.54 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19244,10 +19244,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "Coonnect_GoldenFinger_200P_1_0"
+		(symbol "Coonnect_GoldenFinger_200P_0_1"
 			(rectangle
-				(start -7.62 129.54)
-				(end 5.08 -127)
+				(start -6.35 69.85)
+				(end 6.35 -63.5)
 				(stroke
 					(width 0)
 					(type default)
@@ -19256,8 +19256,10 @@
 					(type none)
 				)
 			)
+		)
+		(symbol "Coonnect_GoldenFinger_200P_1_0"
 			(pin unspecified line
-				(at -10.16 127 0)
+				(at -8.89 67.31 0)
 				(length 2.54)
 				(name "1"
 					(effects
@@ -19275,7 +19277,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 116.84 180)
+				(at 8.89 57.15 180)
 				(length 2.54)
 				(name "10"
 					(effects
@@ -19293,7 +19295,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 2.54 180)
+				(at 8.89 -57.15 180)
 				(length 2.54)
 				(name "100"
 					(effects
@@ -19311,169 +19313,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 0 0)
-				(length 2.54)
-				(name "101"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "101"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "102"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "102"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -2.54 0)
-				(length 2.54)
-				(name "103"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "103"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -2.54 180)
-				(length 2.54)
-				(name "104"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "104"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -5.08 0)
-				(length 2.54)
-				(name "105"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "105"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -5.08 180)
-				(length 2.54)
-				(name "106"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "106"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -7.62 0)
-				(length 2.54)
-				(name "107"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "107"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -7.62 180)
-				(length 2.54)
-				(name "108"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "108"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -10.16 0)
-				(length 2.54)
-				(name "109"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "109"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 114.3 0)
+				(at -8.89 54.61 0)
 				(length 2.54)
 				(name "11"
 					(effects
@@ -19491,187 +19331,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -10.16 180)
-				(length 2.54)
-				(name "110"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "110"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -12.7 0)
-				(length 2.54)
-				(name "111"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "111"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -12.7 180)
-				(length 2.54)
-				(name "112"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "112"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -15.24 0)
-				(length 2.54)
-				(name "113"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "113"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -15.24 180)
-				(length 2.54)
-				(name "114"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "114"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -17.78 0)
-				(length 2.54)
-				(name "115"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "115"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -17.78 180)
-				(length 2.54)
-				(name "116"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "116"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -20.32 0)
-				(length 2.54)
-				(name "117"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "117"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -20.32 180)
-				(length 2.54)
-				(name "118"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "118"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -22.86 0)
-				(length 2.54)
-				(name "119"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "119"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 114.3 180)
+				(at 8.89 54.61 180)
 				(length 2.54)
 				(name "12"
 					(effects
@@ -19689,187 +19349,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -22.86 180)
-				(length 2.54)
-				(name "120"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "120"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -25.4 0)
-				(length 2.54)
-				(name "121"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "121"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -25.4 180)
-				(length 2.54)
-				(name "122"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "122"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -27.94 0)
-				(length 2.54)
-				(name "123"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "123"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -27.94 180)
-				(length 2.54)
-				(name "124"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "124"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -30.48 0)
-				(length 2.54)
-				(name "125"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "125"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -30.48 180)
-				(length 2.54)
-				(name "126"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "126"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -33.02 0)
-				(length 2.54)
-				(name "127"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "127"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -33.02 180)
-				(length 2.54)
-				(name "128"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "128"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -35.56 0)
-				(length 2.54)
-				(name "129"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "129"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 111.76 0)
+				(at -8.89 52.07 0)
 				(length 2.54)
 				(name "13"
 					(effects
@@ -19887,187 +19367,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -35.56 180)
-				(length 2.54)
-				(name "130"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "130"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -38.1 0)
-				(length 2.54)
-				(name "131"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "131"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -38.1 180)
-				(length 2.54)
-				(name "132"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "132"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -40.64 0)
-				(length 2.54)
-				(name "133"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "133"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -40.64 180)
-				(length 2.54)
-				(name "134"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "134"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -43.18 0)
-				(length 2.54)
-				(name "135"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "135"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -43.18 180)
-				(length 2.54)
-				(name "136"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "136"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -45.72 0)
-				(length 2.54)
-				(name "137"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "137"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -45.72 180)
-				(length 2.54)
-				(name "138"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "138"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -48.26 0)
-				(length 2.54)
-				(name "139"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "139"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 111.76 180)
+				(at 8.89 52.07 180)
 				(length 2.54)
 				(name "14"
 					(effects
@@ -20085,187 +19385,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -48.26 180)
-				(length 2.54)
-				(name "140"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "140"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -50.8 0)
-				(length 2.54)
-				(name "141"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "141"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -50.8 180)
-				(length 2.54)
-				(name "142"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "142"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -53.34 0)
-				(length 2.54)
-				(name "143"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "143"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -53.34 180)
-				(length 2.54)
-				(name "144"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "144"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -55.88 0)
-				(length 2.54)
-				(name "145"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "145"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -55.88 180)
-				(length 2.54)
-				(name "146"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "146"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -58.42 0)
-				(length 2.54)
-				(name "147"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "147"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -58.42 180)
-				(length 2.54)
-				(name "148"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "148"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -60.96 0)
-				(length 2.54)
-				(name "149"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "149"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 109.22 0)
+				(at -8.89 49.53 0)
 				(length 2.54)
 				(name "15"
 					(effects
@@ -20283,187 +19403,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -60.96 180)
-				(length 2.54)
-				(name "150"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "150"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -63.5 0)
-				(length 2.54)
-				(name "151"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "151"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -63.5 180)
-				(length 2.54)
-				(name "152"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "152"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -66.04 0)
-				(length 2.54)
-				(name "153"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "153"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -66.04 180)
-				(length 2.54)
-				(name "154"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "154"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -68.58 0)
-				(length 2.54)
-				(name "155"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "155"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -68.58 180)
-				(length 2.54)
-				(name "156"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "156"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -71.12 0)
-				(length 2.54)
-				(name "157"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "157"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -71.12 180)
-				(length 2.54)
-				(name "158"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "158"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -73.66 0)
-				(length 2.54)
-				(name "159"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "159"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 109.22 180)
+				(at 8.89 49.53 180)
 				(length 2.54)
 				(name "16"
 					(effects
@@ -20481,187 +19421,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -73.66 180)
-				(length 2.54)
-				(name "160"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "160"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -76.2 0)
-				(length 2.54)
-				(name "161"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "161"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -76.2 180)
-				(length 2.54)
-				(name "162"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "162"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -78.74 0)
-				(length 2.54)
-				(name "163"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "163"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -78.74 180)
-				(length 2.54)
-				(name "164"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "164"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -81.28 0)
-				(length 2.54)
-				(name "165"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "165"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -81.28 180)
-				(length 2.54)
-				(name "166"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "166"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -83.82 0)
-				(length 2.54)
-				(name "167"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "167"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -83.82 180)
-				(length 2.54)
-				(name "168"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "168"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -86.36 0)
-				(length 2.54)
-				(name "169"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "169"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 106.68 0)
+				(at -8.89 46.99 0)
 				(length 2.54)
 				(name "17"
 					(effects
@@ -20679,187 +19439,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -86.36 180)
-				(length 2.54)
-				(name "170"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "170"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -88.9 0)
-				(length 2.54)
-				(name "171"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "171"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -88.9 180)
-				(length 2.54)
-				(name "172"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "172"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -91.44 0)
-				(length 2.54)
-				(name "173"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "173"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -91.44 180)
-				(length 2.54)
-				(name "174"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "174"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -93.98 0)
-				(length 2.54)
-				(name "175"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "175"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -93.98 180)
-				(length 2.54)
-				(name "176"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "176"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -96.52 0)
-				(length 2.54)
-				(name "177"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "177"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -96.52 180)
-				(length 2.54)
-				(name "178"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "178"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -99.06 0)
-				(length 2.54)
-				(name "179"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "179"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 106.68 180)
+				(at 8.89 46.99 180)
 				(length 2.54)
 				(name "18"
 					(effects
@@ -20877,187 +19457,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -99.06 180)
-				(length 2.54)
-				(name "180"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "180"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -101.6 0)
-				(length 2.54)
-				(name "181"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "181"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -101.6 180)
-				(length 2.54)
-				(name "182"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "182"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -104.14 0)
-				(length 2.54)
-				(name "183"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "183"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -104.14 180)
-				(length 2.54)
-				(name "184"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "184"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -106.68 0)
-				(length 2.54)
-				(name "185"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "185"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -106.68 180)
-				(length 2.54)
-				(name "186"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "186"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -109.22 0)
-				(length 2.54)
-				(name "187"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "187"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -109.22 180)
-				(length 2.54)
-				(name "188"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "188"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -111.76 0)
-				(length 2.54)
-				(name "189"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "189"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 104.14 0)
+				(at -8.89 44.45 0)
 				(length 2.54)
 				(name "19"
 					(effects
@@ -21075,187 +19475,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -111.76 180)
-				(length 2.54)
-				(name "190"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "190"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -114.3 0)
-				(length 2.54)
-				(name "191"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "191"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -114.3 180)
-				(length 2.54)
-				(name "192"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "192"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -116.84 0)
-				(length 2.54)
-				(name "193"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "193"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -116.84 180)
-				(length 2.54)
-				(name "194"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "194"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -119.38 0)
-				(length 2.54)
-				(name "195"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "195"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -119.38 180)
-				(length 2.54)
-				(name "196"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "196"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -121.92 0)
-				(length 2.54)
-				(name "197"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "197"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 -121.92 180)
-				(length 2.54)
-				(name "198"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "198"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -124.46 0)
-				(length 2.54)
-				(name "199"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "199"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 127 180)
+				(at 8.89 67.31 180)
 				(length 2.54)
 				(name "2"
 					(effects
@@ -21273,7 +19493,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 104.14 180)
+				(at 8.89 44.45 180)
 				(length 2.54)
 				(name "20"
 					(effects
@@ -21291,25 +19511,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -124.46 180)
-				(length 2.54)
-				(name "200"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "200"
-					(effects
-						(font
-							(size 0.8466 0.8466)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 101.6 0)
+				(at -8.89 41.91 0)
 				(length 2.54)
 				(name "21"
 					(effects
@@ -21327,7 +19529,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 101.6 180)
+				(at 8.89 41.91 180)
 				(length 2.54)
 				(name "22"
 					(effects
@@ -21345,7 +19547,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 99.06 0)
+				(at -8.89 39.37 0)
 				(length 2.54)
 				(name "23"
 					(effects
@@ -21363,7 +19565,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 99.06 180)
+				(at 8.89 39.37 180)
 				(length 2.54)
 				(name "24"
 					(effects
@@ -21381,7 +19583,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 96.52 0)
+				(at -8.89 36.83 0)
 				(length 2.54)
 				(name "25"
 					(effects
@@ -21399,7 +19601,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 96.52 180)
+				(at 8.89 36.83 180)
 				(length 2.54)
 				(name "26"
 					(effects
@@ -21417,7 +19619,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 93.98 0)
+				(at -8.89 34.29 0)
 				(length 2.54)
 				(name "27"
 					(effects
@@ -21435,7 +19637,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 93.98 180)
+				(at 8.89 34.29 180)
 				(length 2.54)
 				(name "28"
 					(effects
@@ -21453,7 +19655,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 91.44 0)
+				(at -8.89 31.75 0)
 				(length 2.54)
 				(name "29"
 					(effects
@@ -21471,7 +19673,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 124.46 0)
+				(at -8.89 64.77 0)
 				(length 2.54)
 				(name "3"
 					(effects
@@ -21489,7 +19691,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 91.44 180)
+				(at 8.89 31.75 180)
 				(length 2.54)
 				(name "30"
 					(effects
@@ -21507,7 +19709,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 88.9 0)
+				(at -8.89 29.21 0)
 				(length 2.54)
 				(name "31"
 					(effects
@@ -21525,7 +19727,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 88.9 180)
+				(at 8.89 29.21 180)
 				(length 2.54)
 				(name "32"
 					(effects
@@ -21543,7 +19745,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 86.36 0)
+				(at -8.89 26.67 0)
 				(length 2.54)
 				(name "33"
 					(effects
@@ -21561,7 +19763,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 86.36 180)
+				(at 8.89 26.67 180)
 				(length 2.54)
 				(name "34"
 					(effects
@@ -21579,7 +19781,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 83.82 0)
+				(at -8.89 24.13 0)
 				(length 2.54)
 				(name "35"
 					(effects
@@ -21597,7 +19799,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 83.82 180)
+				(at 8.89 24.13 180)
 				(length 2.54)
 				(name "36"
 					(effects
@@ -21615,7 +19817,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 81.28 0)
+				(at -8.89 21.59 0)
 				(length 2.54)
 				(name "37"
 					(effects
@@ -21633,7 +19835,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 81.28 180)
+				(at 8.89 21.59 180)
 				(length 2.54)
 				(name "38"
 					(effects
@@ -21651,7 +19853,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 78.74 0)
+				(at -8.89 19.05 0)
 				(length 2.54)
 				(name "39"
 					(effects
@@ -21669,7 +19871,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 124.46 180)
+				(at 8.89 64.77 180)
 				(length 2.54)
 				(name "4"
 					(effects
@@ -21687,7 +19889,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 78.74 180)
+				(at 8.89 19.05 180)
 				(length 2.54)
 				(name "40"
 					(effects
@@ -21705,7 +19907,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 76.2 0)
+				(at -8.89 16.51 0)
 				(length 2.54)
 				(name "41"
 					(effects
@@ -21723,7 +19925,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 76.2 180)
+				(at 8.89 16.51 180)
 				(length 2.54)
 				(name "42"
 					(effects
@@ -21741,7 +19943,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 73.66 0)
+				(at -8.89 13.97 0)
 				(length 2.54)
 				(name "43"
 					(effects
@@ -21759,7 +19961,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 73.66 180)
+				(at 8.89 13.97 180)
 				(length 2.54)
 				(name "44"
 					(effects
@@ -21777,7 +19979,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 71.12 0)
+				(at -8.89 11.43 0)
 				(length 2.54)
 				(name "45"
 					(effects
@@ -21795,7 +19997,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 71.12 180)
+				(at 8.89 11.43 180)
 				(length 2.54)
 				(name "46"
 					(effects
@@ -21813,7 +20015,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 68.58 0)
+				(at -8.89 8.89 0)
 				(length 2.54)
 				(name "47"
 					(effects
@@ -21831,7 +20033,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 68.58 180)
+				(at 8.89 8.89 180)
 				(length 2.54)
 				(name "48"
 					(effects
@@ -21849,7 +20051,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 66.04 0)
+				(at -8.89 6.35 0)
 				(length 2.54)
 				(name "49"
 					(effects
@@ -21867,7 +20069,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 121.92 0)
+				(at -8.89 62.23 0)
 				(length 2.54)
 				(name "5"
 					(effects
@@ -21885,7 +20087,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 66.04 180)
+				(at 8.89 6.35 180)
 				(length 2.54)
 				(name "50"
 					(effects
@@ -21903,7 +20105,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 63.5 0)
+				(at -8.89 3.81 0)
 				(length 2.54)
 				(name "51"
 					(effects
@@ -21921,7 +20123,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 63.5 180)
+				(at 8.89 3.81 180)
 				(length 2.54)
 				(name "52"
 					(effects
@@ -21939,7 +20141,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 60.96 0)
+				(at -8.89 1.27 0)
 				(length 2.54)
 				(name "53"
 					(effects
@@ -21957,7 +20159,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 60.96 180)
+				(at 8.89 1.27 180)
 				(length 2.54)
 				(name "54"
 					(effects
@@ -21975,7 +20177,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 58.42 0)
+				(at -8.89 -1.27 0)
 				(length 2.54)
 				(name "55"
 					(effects
@@ -21993,7 +20195,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 58.42 180)
+				(at 8.89 -1.27 180)
 				(length 2.54)
 				(name "56"
 					(effects
@@ -22011,7 +20213,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 55.88 0)
+				(at -8.89 -3.81 0)
 				(length 2.54)
 				(name "57"
 					(effects
@@ -22029,7 +20231,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 55.88 180)
+				(at 8.89 -3.81 180)
 				(length 2.54)
 				(name "58"
 					(effects
@@ -22047,7 +20249,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 53.34 0)
+				(at -8.89 -6.35 0)
 				(length 2.54)
 				(name "59"
 					(effects
@@ -22065,7 +20267,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 121.92 180)
+				(at 8.89 62.23 180)
 				(length 2.54)
 				(name "6"
 					(effects
@@ -22083,7 +20285,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 53.34 180)
+				(at 8.89 -6.35 180)
 				(length 2.54)
 				(name "60"
 					(effects
@@ -22101,7 +20303,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 50.8 0)
+				(at -8.89 -8.89 0)
 				(length 2.54)
 				(name "61"
 					(effects
@@ -22119,7 +20321,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 50.8 180)
+				(at 8.89 -8.89 180)
 				(length 2.54)
 				(name "62"
 					(effects
@@ -22137,7 +20339,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 48.26 0)
+				(at -8.89 -11.43 0)
 				(length 2.54)
 				(name "63"
 					(effects
@@ -22155,7 +20357,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 48.26 180)
+				(at 8.89 -11.43 180)
 				(length 2.54)
 				(name "64"
 					(effects
@@ -22173,7 +20375,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 45.72 0)
+				(at -8.89 -13.97 0)
 				(length 2.54)
 				(name "65"
 					(effects
@@ -22191,7 +20393,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 45.72 180)
+				(at 8.89 -13.97 180)
 				(length 2.54)
 				(name "66"
 					(effects
@@ -22209,7 +20411,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 43.18 0)
+				(at -8.89 -16.51 0)
 				(length 2.54)
 				(name "67"
 					(effects
@@ -22227,7 +20429,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 43.18 180)
+				(at 8.89 -16.51 180)
 				(length 2.54)
 				(name "68"
 					(effects
@@ -22245,7 +20447,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 40.64 0)
+				(at -8.89 -19.05 0)
 				(length 2.54)
 				(name "69"
 					(effects
@@ -22263,7 +20465,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 119.38 0)
+				(at -8.89 59.69 0)
 				(length 2.54)
 				(name "7"
 					(effects
@@ -22281,7 +20483,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 40.64 180)
+				(at 8.89 -19.05 180)
 				(length 2.54)
 				(name "70"
 					(effects
@@ -22299,7 +20501,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 38.1 0)
+				(at -8.89 -21.59 0)
 				(length 2.54)
 				(name "71"
 					(effects
@@ -22317,7 +20519,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 38.1 180)
+				(at 8.89 -21.59 180)
 				(length 2.54)
 				(name "72"
 					(effects
@@ -22335,7 +20537,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 35.56 0)
+				(at -8.89 -24.13 0)
 				(length 2.54)
 				(name "73"
 					(effects
@@ -22353,7 +20555,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 35.56 180)
+				(at 8.89 -24.13 180)
 				(length 2.54)
 				(name "74"
 					(effects
@@ -22371,7 +20573,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 33.02 0)
+				(at -8.89 -26.67 0)
 				(length 2.54)
 				(name "75"
 					(effects
@@ -22389,7 +20591,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 33.02 180)
+				(at 8.89 -26.67 180)
 				(length 2.54)
 				(name "76"
 					(effects
@@ -22407,7 +20609,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 30.48 0)
+				(at -8.89 -29.21 0)
 				(length 2.54)
 				(name "77"
 					(effects
@@ -22425,7 +20627,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 30.48 180)
+				(at 8.89 -29.21 180)
 				(length 2.54)
 				(name "78"
 					(effects
@@ -22443,7 +20645,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 27.94 0)
+				(at -8.89 -31.75 0)
 				(length 2.54)
 				(name "79"
 					(effects
@@ -22461,7 +20663,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 119.38 180)
+				(at 8.89 59.69 180)
 				(length 2.54)
 				(name "8"
 					(effects
@@ -22479,7 +20681,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 27.94 180)
+				(at 8.89 -31.75 180)
 				(length 2.54)
 				(name "80"
 					(effects
@@ -22497,7 +20699,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 25.4 0)
+				(at -8.89 -34.29 0)
 				(length 2.54)
 				(name "81"
 					(effects
@@ -22515,7 +20717,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 25.4 180)
+				(at 8.89 -34.29 180)
 				(length 2.54)
 				(name "82"
 					(effects
@@ -22533,7 +20735,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 22.86 0)
+				(at -8.89 -36.83 0)
 				(length 2.54)
 				(name "83"
 					(effects
@@ -22551,7 +20753,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 22.86 180)
+				(at 8.89 -36.83 180)
 				(length 2.54)
 				(name "84"
 					(effects
@@ -22569,7 +20771,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 20.32 0)
+				(at -8.89 -39.37 0)
 				(length 2.54)
 				(name "85"
 					(effects
@@ -22587,7 +20789,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 20.32 180)
+				(at 8.89 -39.37 180)
 				(length 2.54)
 				(name "86"
 					(effects
@@ -22605,7 +20807,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 17.78 0)
+				(at -8.89 -41.91 0)
 				(length 2.54)
 				(name "87"
 					(effects
@@ -22623,7 +20825,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 17.78 180)
+				(at 8.89 -41.91 180)
 				(length 2.54)
 				(name "88"
 					(effects
@@ -22641,7 +20843,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 15.24 0)
+				(at -8.89 -44.45 0)
 				(length 2.54)
 				(name "89"
 					(effects
@@ -22659,7 +20861,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 116.84 0)
+				(at -8.89 57.15 0)
 				(length 2.54)
 				(name "9"
 					(effects
@@ -22677,7 +20879,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 15.24 180)
+				(at 8.89 -44.45 180)
 				(length 2.54)
 				(name "90"
 					(effects
@@ -22695,7 +20897,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 12.7 0)
+				(at -8.89 -46.99 0)
 				(length 2.54)
 				(name "91"
 					(effects
@@ -22713,7 +20915,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 12.7 180)
+				(at 8.89 -46.99 180)
 				(length 2.54)
 				(name "92"
 					(effects
@@ -22731,7 +20933,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 10.16 0)
+				(at -8.89 -49.53 0)
 				(length 2.54)
 				(name "93"
 					(effects
@@ -22749,7 +20951,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 10.16 180)
+				(at 8.89 -49.53 180)
 				(length 2.54)
 				(name "94"
 					(effects
@@ -22767,7 +20969,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 7.62 0)
+				(at -8.89 -52.07 0)
 				(length 2.54)
 				(name "95"
 					(effects
@@ -22785,7 +20987,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 7.62 180)
+				(at 8.89 -52.07 180)
 				(length 2.54)
 				(name "96"
 					(effects
@@ -22803,7 +21005,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 5.08 0)
+				(at -8.89 -54.61 0)
 				(length 2.54)
 				(name "97"
 					(effects
@@ -22821,7 +21023,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 5.08 180)
+				(at 8.89 -54.61 180)
 				(length 2.54)
 				(name "98"
 					(effects
@@ -22839,7 +21041,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 2.54 0)
+				(at -8.89 -57.15 0)
 				(length 2.54)
 				(name "99"
 					(effects
@@ -22856,8 +21058,1810 @@
 					)
 				)
 			)
+		)
+		(symbol "Coonnect_GoldenFinger_200P_2_0"
 			(pin unspecified line
-				(at -1.27 -129.54 90)
+				(at -8.89 63.5 0)
+				(length 2.54)
+				(name "101"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "101"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 63.5 180)
+				(length 2.54)
+				(name "102"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "102"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 60.96 0)
+				(length 2.54)
+				(name "103"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "103"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 60.96 180)
+				(length 2.54)
+				(name "104"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "104"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 58.42 0)
+				(length 2.54)
+				(name "105"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "105"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 58.42 180)
+				(length 2.54)
+				(name "106"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "106"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 55.88 0)
+				(length 2.54)
+				(name "107"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "107"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 55.88 180)
+				(length 2.54)
+				(name "108"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "108"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 53.34 0)
+				(length 2.54)
+				(name "109"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "109"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 53.34 180)
+				(length 2.54)
+				(name "110"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "110"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 50.8 0)
+				(length 2.54)
+				(name "111"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "111"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 50.8 180)
+				(length 2.54)
+				(name "112"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "112"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 48.26 0)
+				(length 2.54)
+				(name "113"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "113"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 48.26 180)
+				(length 2.54)
+				(name "114"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "114"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 45.72 0)
+				(length 2.54)
+				(name "115"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "115"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 45.72 180)
+				(length 2.54)
+				(name "116"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "116"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 43.18 0)
+				(length 2.54)
+				(name "117"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "117"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 43.18 180)
+				(length 2.54)
+				(name "118"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "118"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 40.64 0)
+				(length 2.54)
+				(name "119"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "119"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 40.64 180)
+				(length 2.54)
+				(name "120"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "120"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 38.1 0)
+				(length 2.54)
+				(name "121"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "121"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 38.1 180)
+				(length 2.54)
+				(name "122"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "122"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 35.56 0)
+				(length 2.54)
+				(name "123"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "123"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 35.56 180)
+				(length 2.54)
+				(name "124"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "124"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 33.02 0)
+				(length 2.54)
+				(name "125"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "125"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 33.02 180)
+				(length 2.54)
+				(name "126"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "126"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 30.48 0)
+				(length 2.54)
+				(name "127"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "127"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 30.48 180)
+				(length 2.54)
+				(name "128"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "128"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 27.94 0)
+				(length 2.54)
+				(name "129"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "129"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 27.94 180)
+				(length 2.54)
+				(name "130"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "130"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 25.4 0)
+				(length 2.54)
+				(name "131"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "131"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 25.4 180)
+				(length 2.54)
+				(name "132"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "132"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 22.86 0)
+				(length 2.54)
+				(name "133"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "133"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 22.86 180)
+				(length 2.54)
+				(name "134"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "134"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 20.32 0)
+				(length 2.54)
+				(name "135"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "135"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 20.32 180)
+				(length 2.54)
+				(name "136"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "136"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 17.78 0)
+				(length 2.54)
+				(name "137"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "137"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 17.78 180)
+				(length 2.54)
+				(name "138"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "138"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 15.24 0)
+				(length 2.54)
+				(name "139"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "139"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 15.24 180)
+				(length 2.54)
+				(name "140"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "140"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 12.7 0)
+				(length 2.54)
+				(name "141"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "141"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 12.7 180)
+				(length 2.54)
+				(name "142"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "142"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 10.16 0)
+				(length 2.54)
+				(name "143"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "143"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 10.16 180)
+				(length 2.54)
+				(name "144"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "144"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 7.62 0)
+				(length 2.54)
+				(name "145"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "145"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 7.62 180)
+				(length 2.54)
+				(name "146"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "146"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 5.08 0)
+				(length 2.54)
+				(name "147"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "147"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 5.08 180)
+				(length 2.54)
+				(name "148"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "148"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 2.54 0)
+				(length 2.54)
+				(name "149"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "149"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 2.54 180)
+				(length 2.54)
+				(name "150"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "150"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 0 0)
+				(length 2.54)
+				(name "151"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "151"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "152"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "152"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -2.54 0)
+				(length 2.54)
+				(name "153"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "153"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -2.54 180)
+				(length 2.54)
+				(name "154"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "154"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -5.08 0)
+				(length 2.54)
+				(name "155"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "155"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -5.08 180)
+				(length 2.54)
+				(name "156"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "156"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -7.62 0)
+				(length 2.54)
+				(name "157"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "157"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -7.62 180)
+				(length 2.54)
+				(name "158"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "158"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -10.16 0)
+				(length 2.54)
+				(name "159"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "159"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -10.16 180)
+				(length 2.54)
+				(name "160"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "160"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -12.7 0)
+				(length 2.54)
+				(name "161"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "161"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -12.7 180)
+				(length 2.54)
+				(name "162"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "162"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -15.24 0)
+				(length 2.54)
+				(name "163"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "163"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -15.24 180)
+				(length 2.54)
+				(name "164"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "164"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -17.78 0)
+				(length 2.54)
+				(name "165"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "165"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -17.78 180)
+				(length 2.54)
+				(name "166"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "166"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -20.32 0)
+				(length 2.54)
+				(name "167"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "167"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -20.32 180)
+				(length 2.54)
+				(name "168"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "168"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -22.86 0)
+				(length 2.54)
+				(name "169"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "169"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -22.86 180)
+				(length 2.54)
+				(name "170"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "170"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -25.4 0)
+				(length 2.54)
+				(name "171"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "171"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -25.4 180)
+				(length 2.54)
+				(name "172"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "172"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -27.94 0)
+				(length 2.54)
+				(name "173"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "173"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -27.94 180)
+				(length 2.54)
+				(name "174"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "174"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -30.48 0)
+				(length 2.54)
+				(name "175"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "175"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -30.48 180)
+				(length 2.54)
+				(name "176"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "176"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -33.02 0)
+				(length 2.54)
+				(name "177"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "177"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -33.02 180)
+				(length 2.54)
+				(name "178"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "178"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -35.56 0)
+				(length 2.54)
+				(name "179"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "179"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -35.56 180)
+				(length 2.54)
+				(name "180"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "180"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -38.1 0)
+				(length 2.54)
+				(name "181"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "181"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -38.1 180)
+				(length 2.54)
+				(name "182"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "182"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -40.64 0)
+				(length 2.54)
+				(name "183"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "183"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -40.64 180)
+				(length 2.54)
+				(name "184"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "184"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -43.18 0)
+				(length 2.54)
+				(name "185"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "185"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -43.18 180)
+				(length 2.54)
+				(name "186"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "186"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -45.72 0)
+				(length 2.54)
+				(name "187"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "187"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -45.72 180)
+				(length 2.54)
+				(name "188"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "188"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -48.26 0)
+				(length 2.54)
+				(name "189"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "189"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -48.26 180)
+				(length 2.54)
+				(name "190"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "190"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -50.8 0)
+				(length 2.54)
+				(name "191"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "191"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -50.8 180)
+				(length 2.54)
+				(name "192"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "192"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -53.34 0)
+				(length 2.54)
+				(name "193"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "193"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -53.34 180)
+				(length 2.54)
+				(name "194"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "194"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -55.88 0)
+				(length 2.54)
+				(name "195"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "195"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -55.88 180)
+				(length 2.54)
+				(name "196"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "196"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -58.42 0)
+				(length 2.54)
+				(name "197"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "197"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -58.42 180)
+				(length 2.54)
+				(name "198"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "198"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -60.96 0)
+				(length 2.54)
+				(name "199"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "199"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -60.96 180)
+				(length 2.54)
+				(name "200"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "200"
+					(effects
+						(font
+							(size 0.8466 0.8466)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -66.04 90)
 				(length 2.54)
 				(name "S1"
 					(effects
@@ -22867,24 +22871,6 @@
 					)
 				)
 				(number "S1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -1.27 132.08 270)
-				(length 2.54)
-				(name "S2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "S2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -25111,6 +25097,175 @@
 			)
 		)
 	)
+	(symbol "ESD_PESD3V3L1BA-N"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "persional_library:SOD-323_L1.8-W1.3-LS2.5-BI"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/PESD3V3L1BA-N/297708.html"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "极性:双向;反向截止电压(Vrwm):3.3V;钳位电压:24V;峰值脉冲电流(Ipp):20A@8/20us;峰值脉冲功率(Ppp):480W@8/20us;击穿电压:4V;"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PESD3V3L1BA-N"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "BORN(伯恩半导体)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C316020"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "双向ESD 3.3V截止 峰值浪涌电流：20A@8/20us"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ESD_PESD3V3L1BA-N_1_0"
+			(polyline
+				(pts
+					(xy -2.54 1.27) (xy 0 0) (xy 0 0) (xy -2.54 -1.27) (xy -2.54 -1.27) (xy -2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy 0 0) (xy 0 0) (xy 2.54 -1.27) (xy 2.54 -1.27) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 1.524) (xy -0.508 1.524) (xy -0.508 1.524) (xy 0 1.524) (xy 0 1.524) (xy 0 -1.524) (xy 0 -1.524)
+					(xy 0.508 -1.524) (xy 0.508 -1.524) (xy 0.508 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "ESD_Protection_Bidirectional_5V_0603"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25274,6 +25429,851 @@
 					(effects
 						(font
 							(size 0.0254 0.0254)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "ESP32-S3-WROOM-1(N16R8)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "persional_library:WIRELM-SMD_ESP32-S3-WROOM-1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/ESP32-S3-WROOM-1-N16R8/3198300.html"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "ESP32-S3-WROOM-1-N16R8"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ESPRESSIF(乐鑫)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2913202"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "通用型Wi-Fi+低功耗蓝牙MCU模组"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ESP32-S3-WROOM-1(N16R8)_1_0"
+			(rectangle
+				(start -19.05 36.83)
+				(end 19.05 -33.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -21.59 11.43 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21.59 -11.43 0)
+				(length 2.54)
+				(name "IO17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21.59 -13.97 0)
+				(length 2.54)
+				(name "IO18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21.59 -16.51 0)
+				(length 2.54)
+				(name "IO8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21.59 -19.05 0)
+				(length 2.54)
+				(name "IO19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21.59 -21.59 0)
+				(length 2.54)
+				(name "IO20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -35.56 90)
+				(length 2.54)
+				(name "IO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -35.56 90)
+				(length 2.54)
+				(name "IO46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -7.62 -35.56 90)
+				(length 2.54)
+				(name "IO9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -35.56 90)
+				(length 2.54)
+				(name "IO10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -35.56 90)
+				(length 2.54)
+				(name "IO11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21.59 8.89 0)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -35.56 90)
+				(length 2.54)
+				(name "IO12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 2.54 -35.56 90)
+				(length 2.54)
+				(name "IO13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 -35.56 90)
+				(length 2.54)
+				(name "IO14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 7.62 -35.56 90)
+				(length 2.54)
+				(name "IO21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -35.56 90)
+				(length 2.54)
+				(name "IO47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -35.56 90)
+				(length 2.54)
+				(name "IO48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -35.56 90)
+				(length 2.54)
+				(name "IO45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 21.59 -21.59 180)
+				(length 2.54)
+				(name "IO0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 21.59 -19.05 180)
+				(length 2.54)
+				(name "IO35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 21.59 -16.51 180)
+				(length 2.54)
+				(name "IO36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21.59 6.35 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 21.59 -13.97 180)
+				(length 2.54)
+				(name "IO37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 21.59 -11.43 180)
+				(length 2.54)
+				(name "IO38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 21.59 -8.89 180)
+				(length 2.54)
+				(name "IO39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 21.59 -6.35 180)
+				(length 2.54)
+				(name "IO40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 21.59 -3.81 180)
+				(length 2.54)
+				(name "IO41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 21.59 -1.27 180)
+				(length 2.54)
+				(name "IO42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 21.59 1.27 180)
+				(length 2.54)
+				(name "RXD0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 21.59 3.81 180)
+				(length 2.54)
+				(name "TXD0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 21.59 6.35 180)
+				(length 2.54)
+				(name "IO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 21.59 8.89 180)
+				(length 2.54)
+				(name "IO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21.59 3.81 0)
+				(length 2.54)
+				(name "IO4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 21.59 11.43 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 21.59 15.24 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21.59 1.27 0)
+				(length 2.54)
+				(name "IO5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21.59 -1.27 0)
+				(length 2.54)
+				(name "IO6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21.59 -3.81 0)
+				(length 2.54)
+				(name "IO7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21.59 -6.35 0)
+				(length 2.54)
+				(name "IO15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21.59 -8.89 0)
+				(length 2.54)
+				(name "IO16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -43483,7 +44483,7 @@
 			)
 		)
 		(property "Purchase link" "https://item.taobao.com/item.htm?id=564497154625"
-			(at 0 0 0)
+			(at 3.81 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43491,19 +44491,22 @@
 				(hide yes)
 			)
 		)
-		(symbol "SEG_20-4S_1_0"
-			(rectangle
-				(start -14.732 7.874)
-				(end 14.478 -7.366)
+		(symbol "SEG_20-4S_0_1"
+			(polyline
+				(pts
+					(xy -10.16 -6.35) (xy 19.05 -6.35) (xy 19.05 6.35) (xy -10.16 6.35) (xy -10.16 17.78) (xy -16.51 17.78)
+					(xy -16.51 -6.35) (xy -16.51 -16.51) (xy -10.16 -16.51) (xy -10.16 -6.35)
+				)
 				(stroke
 					(width 0)
 					(type default)
-					(color 0 0 153 1)
 				)
 				(fill
 					(type none)
 				)
 			)
+		)
+		(symbol "SEG_20-4S_1_0"
 			(rectangle
 				(start -13.462 5.08)
 				(end -7.112 -5.08)
@@ -43685,7 +44688,7 @@
 				)
 			)
 			(pin input line
-				(at -6.35 -12.446 90)
+				(at -21.59 5.08 0)
 				(length 5.08)
 				(name "e"
 					(effects
@@ -43703,7 +44706,7 @@
 				)
 			)
 			(pin input line
-				(at -1.27 13.208 270)
+				(at -21.59 2.54 0)
 				(length 5.08)
 				(name "f"
 					(effects
@@ -43721,7 +44724,7 @@
 				)
 			)
 			(pin input line
-				(at -3.81 13.208 270)
+				(at -21.59 15.24 0)
 				(length 5.08)
 				(name "a"
 					(effects
@@ -43739,7 +44742,7 @@
 				)
 			)
 			(pin input line
-				(at -6.35 13.208 270)
+				(at -21.59 -7.62 0)
 				(length 5.08)
 				(name "dig1"
 					(effects
@@ -43757,7 +44760,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 12.954 270)
+				(at 24.13 -3.81 180)
 				(length 5.08)
 				(name "13"
 					(effects
@@ -43775,7 +44778,7 @@
 				)
 			)
 			(pin input line
-				(at 10.668 12.954 270)
+				(at 24.13 -1.27 180)
 				(length 5.08)
 				(name "14"
 					(effects
@@ -43793,7 +44796,7 @@
 				)
 			)
 			(pin input line
-				(at -10.922 -12.7 90)
+				(at 24.13 1.27 180)
 				(length 5.08)
 				(name "15"
 					(effects
@@ -43811,7 +44814,7 @@
 				)
 			)
 			(pin input line
-				(at 10.922 -12.7 90)
+				(at 24.13 3.81 180)
 				(length 5.08)
 				(name "16"
 					(effects
@@ -43829,7 +44832,7 @@
 				)
 			)
 			(pin input line
-				(at -3.81 -12.446 90)
+				(at -21.59 7.62 0)
 				(length 5.08)
 				(name "d"
 					(effects
@@ -43847,7 +44850,7 @@
 				)
 			)
 			(pin input line
-				(at -1.27 -12.446 90)
+				(at -21.59 -2.54 0)
 				(length 5.08)
 				(name "dp"
 					(effects
@@ -43865,7 +44868,7 @@
 				)
 			)
 			(pin input line
-				(at 1.27 -12.446 90)
+				(at -21.59 10.16 0)
 				(length 5.08)
 				(name "c"
 					(effects
@@ -43883,7 +44886,7 @@
 				)
 			)
 			(pin input line
-				(at 3.81 -12.446 90)
+				(at -21.59 0 0)
 				(length 5.08)
 				(name "g"
 					(effects
@@ -43901,7 +44904,7 @@
 				)
 			)
 			(pin input line
-				(at 6.35 -12.446 90)
+				(at -21.59 -15.24 0)
 				(length 5.08)
 				(name "dig4"
 					(effects
@@ -43919,7 +44922,7 @@
 				)
 			)
 			(pin input line
-				(at 6.35 13.208 270)
+				(at -21.59 12.7 0)
 				(length 5.08)
 				(name "b"
 					(effects
@@ -43937,7 +44940,7 @@
 				)
 			)
 			(pin input line
-				(at 3.81 13.208 270)
+				(at -21.59 -12.7 0)
 				(length 5.08)
 				(name "dig3"
 					(effects
@@ -43955,7 +44958,7 @@
 				)
 			)
 			(pin input line
-				(at 1.27 13.208 270)
+				(at -21.59 -10.16 0)
 				(length 5.08)
 				(name "dig2"
 					(effects
